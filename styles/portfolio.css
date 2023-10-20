@@ -1,0 +1,32 @@
+h1 {
+  margin-top: 50px;
+  font-family: "Playpen Sans", cursive;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+footer {
+  font-weight: bold;
+}
+
+.grid-title {
+  font-size: 25px;
+}
+.aboutMe-description,
+projects-description,
+contactMe-description {
+  font-size: 18px;
+}
+.fa-brands {
+  display: inline-flex;
+}
+.socialmedia {
+  text-decoration: none;
+}
