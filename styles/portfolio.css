@@ -30,3 +30,15 @@ contactMe-description {
 .socialmedia {
   text-decoration: none;
 }
+.aboutMe-header,
+.education-header,
+.professionalLife-header {
+  color: white;
+}
+.bookWithMe {
+  font-weight: bold;
+  background-color: aqua;
+}
+.contactMe-link {
+  text-decoration: none;
+}
