@@ -24,9 +24,12 @@ projects-description,
 contactMe-description {
   font-size: 18px;
 }
-.fa-brands {
-  display: inline-flex;
+.certificates {
+  display: block;
+  margin: 0 auto;
+  justify-content: space-evenly;
 }
+
 .socialmedia {
   text-decoration: none;
 }
@@ -37,8 +40,17 @@ contactMe-description {
 }
 .bookWithMe {
   font-weight: bold;
-  background-color: aqua;
 }
 .contactMe-link {
   text-decoration: none;
+}
+.email-link {
+  color: black;
+}
+.email-link:hover {
+  color: rgb(13, 110, 253);
+}
+.getintouch {
+  font-size: 40px;
+  font-weight: bold;
 }
