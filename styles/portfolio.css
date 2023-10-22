@@ -6,11 +6,15 @@
   --third-color: #acdcee;
 
   --fourth-color: #f0fbff;
+
+  --heading-font: "Playpen Sans", cursive;
+
+  --second-font: "PT Sans", sans-serif;
 }
 
 h1 {
   margin-top: 50px;
-  font-family: "Playpen Sans", cursive;
+  font-family: var(--heading-font);
   font-size: 70px;
   text-align: center;
   font-weight: bold;
@@ -18,18 +22,21 @@ h1 {
 }
 
 h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: var(--second-font);
   font-size: 50px;
   text-align: center;
+  font-weight: bold;
   font-size: 18px;
   color: var(--second-color);
 }
 footer {
   font-weight: bold;
   color: var(--second-color);
+  font-family: var(--second-font);
 }
 .navbar {
   color: var(--fourth-color);
+  font-family: var(--second-font);
 }
 .hero {
   background: var(--third-color);
@@ -38,6 +45,7 @@ footer {
 
 .grid-title {
   font-size: 25px;
+  font-family: var(--second-font);
   color: var(--second-color);
 }
 .aboutMe-description,
@@ -46,9 +54,14 @@ footer {
 .aboutMe-details,
 .aboutMe-details,
 .education-details,
-.professionalLife-details {
+.professionalLife-details,
+.mentalHealth-description,
+.weatherApp-description,
+.croissants-description {
   font-size: 18px;
   color: var(--second-color);
+  line-height: 30px;
+  font-family: var(--second-font);
 }
 
 .aboutMe-header,
@@ -56,6 +69,8 @@ footer {
 .professionalLife-header {
   background-color: var(--first-color);
   color: white;
+  font-weight: normal;
+  font-family: var(--second-font);
 }
 .certificates {
   display: block;
@@ -66,14 +81,15 @@ footer {
 .socialmedia {
   text-decoration: none;
 }
-.classification,
+.knowMe,
 .bookWithMe {
   color: var(--second-color);
 }
 .bookWithMe,
-.row-classification {
+.row-knowMe {
   font-weight: bold;
   background-color: var(--fourth-color);
+  font-family: var(--second-font);
 }
 .contactMe-link {
   text-decoration: none;
@@ -87,6 +103,7 @@ footer {
 .getintouch {
   font-size: 40px;
   font-weight: bold;
+  font-family: var(--second-font);
   color: var(--second-color);
 }
 .row-sm {
@@ -97,6 +114,7 @@ footer {
 .contactPhone,
 .social-media {
   color: var(--first-color);
+  font-family: var(--second-font);
 }
 .email-link,
 .phone-nr,
@@ -104,6 +122,7 @@ footer {
 .Ig,
 .Fb {
   color: var(--second-color);
+  font-family: var(--second-font);
 }
 .learn-more {
   background-color: var(--first-color);
@@ -113,4 +132,18 @@ footer {
   background-color: var(--third-color);
   border-color: var(--third-color);
   color: var(--second-color);
+}
+
+@media (max-width: 576px) {
+  .learn-more {
+    display: block;
+  }
+  .fa-brands {
+    margin-bottom: 10px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
 }
