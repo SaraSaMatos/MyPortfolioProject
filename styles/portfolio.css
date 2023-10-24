@@ -124,6 +124,11 @@ footer {
   color: var(--second-color);
   font-family: var(--second-font);
 }
+.sm-icons {
+  text-decoration: none;
+  background-color: none;
+  color: var(--second-color);
+}
 .learn-more {
   background-color: var(--first-color);
   border-color: var(--first-color);
