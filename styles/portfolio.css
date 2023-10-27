@@ -38,6 +38,13 @@ footer {
   color: var(--fourth-color);
   font-family: var(--second-font);
 }
+.nav-link {
+  padding: 0 40px !important;
+  font-weight: 600;
+}
+.active {
+  color: var(--first-color) !important;
+}
 .hero {
   background: var(--third-color);
   padding: 60px 0;
